@@ -1,0 +1,94 @@
+/* Shared styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FFF;
+    padding: 20px 25px;
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+/* header section styles */
+header {
+    background-image: url(../images/banner/banner3.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+.think {
+    text-align: right;
+    padding: 215px 230px;
+}
+
+.think-title {
+    color: #FFF;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.think-description {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+/* Main part styles */
+main {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* failure section style */
+
+.fail-container {
+    display: flex;
+    align-items: center;
+    gap: 105px;
+    margin-top: 140px;
+}
+
+.fail {
+    margin-top: 150px;
+}
+
+.fail-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.fail-description {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.fail-container li {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.fail-container li {
+    list-style: circle;
+    margin-left: 15px;
+}
+
+.check {
+    display: inline;
+}
