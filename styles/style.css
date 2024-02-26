@@ -130,3 +130,61 @@ main {
     font-size: 40px;
     font-weight: 700;
 }
+
+/* footer section styles */
+.footer {
+    background-color: #151414;
+    display: flex;
+    gap: 330px;
+    justify-content: space-evenly;
+    padding: 130px 0;
+    margin-top: 130px;
+}
+
+
+.future-title {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+.future-description {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px 0px;
+}
+
+.future img {
+    margin-right: 15px;
+}
+
+.subs-title {
+    color: #FFF;
+
+    font-size: 25px;
+
+    font-weight: 600;
+    margin-bottom: 30px;
+
+}
+
+.subscribe input[type="email"] {
+    color: #F3F3F3;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+input[type="button"] {
+    display: block;
+    border-radius: 5px;
+    background: #005FAC;
+    padding: 20px 25px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    margin-top: 30px;
+}
