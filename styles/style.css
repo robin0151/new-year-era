@@ -12,6 +12,7 @@
     font-size: 20px;
     font-weight: 600;
     border: 0;
+    margin-top: 30px;
 
 }
 
@@ -42,7 +43,6 @@ header {
     color: #FFF;
     font-size: 16px;
     font-weight: 400;
-    margin-bottom: 30px;
 }
 
 /* Main part styles */
@@ -109,4 +109,24 @@ main {
     font-weight: 700;
     font-size: 40px;
     margin-bottom: 50px;
+}
+
+/* watch section styles */
+.watch {
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    height: 300px;
+}
+
+.watch-container {
+    padding: 60px 65px;
+    margin-top: 135px;
+}
+
+.watch-title {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
 }
